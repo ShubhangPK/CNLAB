@@ -20,7 +20,7 @@ proc finish {} {
    close $namFile
 	 exec awk -f stats.awk 3.tr &
    #exec gawk -f graphdata.awk 3.tr &
-	 #exec nam 2.nam &
+	 #exec nam 3.nam &
    exit 0
 }
 
